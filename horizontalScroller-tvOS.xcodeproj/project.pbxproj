@@ -11,6 +11,9 @@
 		FC54D15A1CEAA3120080214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1591CEAA3120080214A /* ViewController.swift */; };
 		FC54D15D1CEAA3120080214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC54D15B1CEAA3120080214A /* Main.storyboard */; };
 		FC54D15F1CEAA3120080214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC54D15E1CEAA3120080214A /* Assets.xcassets */; };
+		FC54D1671CEAA4550080214A /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1661CEAA4550080214A /* TableRow.swift */; };
+		FC54D1691CEABF790080214A /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1681CEABF790080214A /* VC2.swift */; };
+		FC54D16B1CEAC1D80080214A /* CV.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D16A1CEAC1D80080214A /* CV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		FC54D15C1CEAA3120080214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC54D15E1CEAA3120080214A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC54D1601CEAA3120080214A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC54D1661CEAA4550080214A /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
+		FC54D1681CEABF790080214A /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		FC54D16A1CEAC1D80080214A /* CV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,10 @@
 			children = (
 				FC54D1571CEAA3120080214A /* AppDelegate.swift */,
 				FC54D1591CEAA3120080214A /* ViewController.swift */,
+				FC54D1661CEAA4550080214A /* TableRow.swift */,
+				FC54D1681CEABF790080214A /* VC2.swift */,
 				FC54D15B1CEAA3120080214A /* Main.storyboard */,
+				FC54D16A1CEAC1D80080214A /* CV.swift */,
 				FC54D15E1CEAA3120080214A /* Assets.xcassets */,
 				FC54D1601CEAA3120080214A /* Info.plist */,
 			);
@@ -133,6 +142,9 @@
 			files = (
 				FC54D15A1CEAA3120080214A /* ViewController.swift in Sources */,
 				FC54D1581CEAA3120080214A /* AppDelegate.swift in Sources */,
+				FC54D1671CEAA4550080214A /* TableRow.swift in Sources */,
+				FC54D16B1CEAC1D80080214A /* CV.swift in Sources */,
+				FC54D1691CEABF790080214A /* VC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
