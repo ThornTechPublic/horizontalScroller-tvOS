@@ -12,11 +12,6 @@ class TableRow: UITableViewCell {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    @IBOutlet weak var someButton: UIButton!
-//    override var preferredFocusedView: UIView? {
-//        return collectionView
-//    }
-    
 }
 
 extension TableRow: UICollectionViewDataSource {
@@ -32,4 +27,10 @@ extension TableRow: UICollectionViewDataSource {
 
 extension TableRow: UICollectionViewDelegate {
     
+}
+
+extension TableRow: UICollectionViewDelegateFlowLayout {
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        return CGSize(width: 400, height: 300)
+    }
 }
